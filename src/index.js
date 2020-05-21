@@ -1,15 +1,64 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import Button from'./Button'
+import './styles.css';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+/*
+function sum(a, b){
+  return a + b 
+}
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+function primeiroJSX() {
+  return (
+    <div className="teste">
+      Daiane Silva - Introdução ao ReactJS
+      <h1> Soma: {sum(10, 20)}</h1>
+    </div>
+  )
+}
+
+
+
+const App = () => {
+  return (
+    <div className="App">
+      {primeiroJSX()}
+    </div>
+  )
+}
+const rootElement = document.getElementById('root')
+ReactDOM.render(<App />, rootElement)
+*/
+/*
+const element = 'Digital Innovation'
+const element2 = <h1>Olá mundo</h1>
+
+function App(){
+  return(
+    <div>
+      {element}
+      {element2}
+    </div>
+  )
+}
+
+const rootElement = document.getElementById('root')
+ReactDOM.render(<App />, rootElement)
+*/
+
+function soma(a, b) {
+  alert(a + b)
+
+}
+function App(){
+
+  return(
+    <div className='App'>
+      Hello World
+      <Button onClick={() => soma(10, 20)} name="Daiane Silva"/>
+    </div>
+  )
+}
+
+const rootElement = document.getElementById('root')
+ReactDOM.render(<App />, rootElement)
