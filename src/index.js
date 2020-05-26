@@ -45,7 +45,7 @@ function App(){
 const rootElement = document.getElementById('root')
 ReactDOM.render(<App />, rootElement)
 */
-
+/* ERRO
 function soma(a, b) {
   alert(a + b)
 
@@ -62,3 +62,11 @@ function App(){
 
 const rootElement = document.getElementById('root')
 ReactDOM.render(<App />, rootElement)
+*/
+
+class app extends Component{
+
+}
+
+const rootElement = documnet.getElementById("root")
+ReactDOM.render
