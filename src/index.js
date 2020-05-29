@@ -64,9 +64,3 @@ const rootElement = document.getElementById('root')
 ReactDOM.render(<App />, rootElement)
 */
 
-class app extends Component{
-
-}
-
-const rootElement = documnet.getElementById("root")
-ReactDOM.render
